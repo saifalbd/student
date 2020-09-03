@@ -1,0 +1,36 @@
+/server/node_modules
+/server/public/hot
+/server/public/storage
+/server/storage/*.key
+/server/vendor
+/server.env
+/server.env.backup
+/server.phpunit.result.cache
+/serverHomestead.json
+/serverHomestead.yaml
+/server/npm-debug.log
+/server/yarn-error.log
+
+*/.DS_Store
+*/node_modules
+*/dist
+
+
+# local env files
+single/.env.local
+single/.env.*.local
+
+# Log files
+*/npm-debug.log*
+*/yarn-debug.log*
+*/yarn-error.log*
+*/pnpm-debug.log*
+
+# Editor directories and files
+*/.idea
+*/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
